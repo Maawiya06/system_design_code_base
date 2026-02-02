@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class first {
 
@@ -21,5 +22,11 @@ public class first {
         int myNum = 12;
         byte myNum1 = (byte)myNum;
         System.out.println(myNum1);
+
+        // taking input
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your name: ");
+        String name = sc.nextLine();
+        System.out.println("Your Name is : " + name);
     }
 }
