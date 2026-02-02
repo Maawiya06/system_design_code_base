@@ -28,5 +28,6 @@ public class first {
         System.out.println("Enter Your name: ");
         String name = sc.nextLine();
         System.out.println("Your Name is : " + name);
+        sc.close();
     }
 }
