@@ -11,5 +11,15 @@ public class first {
 
         char ch;
         System.out.println("my character is : " +  b);
+
+        //explit conversion
+        int num = 108;
+        char myCh = (char)num;
+        System.out.println(myCh);
+
+        // explicit conversion from higher to lower
+        int myNum = 12;
+        byte myNum1 = (byte)myNum;
+        System.out.println(myNum1);
     }
 }
