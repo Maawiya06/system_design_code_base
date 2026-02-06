@@ -5,6 +5,11 @@ public class string {
         String name = "Ameer";
         System.out.print(name + " ");
         String name1 = new String("Maawiya");
-        System.out.print(name1);
+        System.out.println(name1);
+
+        // with the help of string builder we can perform may action
+        StringBuilder str = new StringBuilder("Saifullah");
+        str.setCharAt(1, 'L');
+        System.out.println(str);
     }
 }
