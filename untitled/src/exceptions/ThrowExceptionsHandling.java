@@ -7,8 +7,9 @@ public class ThrowExceptionsHandling {
 //        System.out.println("before");
 
         if(name.equalsIgnoreCase("babbar")){
-            throw new NullPointerException();
+            throw new NullPointerException("Bhat badhiya h bhai tu");
         }
+        System.out.println(name);
     }
 
     static void main(String[] args) {
@@ -16,7 +17,7 @@ public class ThrowExceptionsHandling {
             printName("Babbar");
         }
         catch (Exception ex){
-            System.out.println(ex.getCause());
+            System.out.println(ex.getMessage());
         }
         finally {
             System.out.println("Badhi");
