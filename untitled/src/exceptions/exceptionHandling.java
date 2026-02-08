@@ -1,3 +1,5 @@
+package exceptions;
+
 public class exceptionHandling {
 
     static void main(String[] args) {
