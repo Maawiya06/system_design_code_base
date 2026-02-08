@@ -3,7 +3,8 @@ public class exceptionHandling {
     static void main(String[] args) {
         System.out.println("Before");
         try{
-            int a = 5/0;
+            //int a = 5/0;
+            System.out.println("Hello");
         }
         catch (Exception ex){
             System.out.println(ex.getMessage());
