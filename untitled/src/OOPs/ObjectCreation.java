@@ -8,6 +8,10 @@ public class ObjectCreation {
     public String name;
     public int nos;
 
+    // default constructor
+    public ObjectCreation(){
+        System.out.println("This is my default constructor");
+    }
     // behaviour
     public void study() {
         System.out.println(name + "studying");
