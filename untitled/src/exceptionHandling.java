@@ -5,7 +5,7 @@ public class exceptionHandling {
         try{
             int a = 5/0;
         }
-        catch (ArithmeticException ex){
+        catch (Exception ex){
             System.out.println(ex.getMessage());
             ex.printStackTrace();
             System.out.println("we need to handle exception");
