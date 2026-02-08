@@ -18,7 +18,7 @@ public class App {
         A.study();
          */
 
-        ObjectCreation A = new ObjectCreation(1, 23, "Raju", 5);
-        System.out.println(A);
+        ObjectCreation A = new ObjectCreation(1, 23, "Raj", 5);
+        System.out.println(A.name);
     }
 }
