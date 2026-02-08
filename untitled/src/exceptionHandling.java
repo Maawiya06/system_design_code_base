@@ -7,8 +7,10 @@ public class exceptionHandling {
         }
         catch (Exception ex){
             System.out.println(ex.getMessage());
-            ex.printStackTrace();
             System.out.println("we need to handle exception");
+        }
+        finally{
+            System.out.println("Mai toh Excute hounga hi");
         }
         System.out.println("after");
     }
