@@ -1,3 +1,5 @@
+package exceptions;
+
 public class string {
 
     static void main() {
@@ -7,12 +9,12 @@ public class string {
         String name1 = new String("Maawiya");
         System.out.println(name1);
 
-        // with the help of string builder we can perform may action
+        // with the help of exceptions.string builder we can perform may action
         StringBuilder str = new StringBuilder("Saifullah");
         str.setCharAt(1, 'L');
         System.out.println(str);
 
-        // split the string
+        // split the exceptions.string
         String str1 = "All is good here and i also";
         String[] words = str1.split(" ");
         for(String word : words){
