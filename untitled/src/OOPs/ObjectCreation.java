@@ -12,16 +12,25 @@ public class ObjectCreation {
     public ObjectCreation(){
         System.out.println("This is my default constructor");
     }
+
+    // parameterised constructor
+    public ObjectCreation(int id, int age, String name, int nos){
+        System.out.println("This is parameterised constructor");
+        this.id = id;
+        this.age = age;
+        this.name = name;
+        this.nos = nos;
+    }
     // behaviour
     public void study() {
-        System.out.println(name + "studying");
+        System.out.println(name + " studying");
     }
 
     public void sleep(){
-        System.out.println(name + "sleeping");
+        System.out.println(name + " sleeping");
     }
 
     public void bunk(){
-        System.out.println(name + "Bunking");
+        System.out.println(name + " Bunking");
     }
 }

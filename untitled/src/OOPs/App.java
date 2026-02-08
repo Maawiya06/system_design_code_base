@@ -2,7 +2,7 @@ package OOPs;
 
 public class App {
     static void main(String[] args) {
-        ObjectCreation A = new ObjectCreation();
+        /*ObjectCreation A = new ObjectCreation();
         A.id = 1;
         A.age = 23;
         A.name = "Rannu";
@@ -16,5 +16,9 @@ public class App {
         A.bunk();
         A.sleep();
         A.study();
+         */
+
+        ObjectCreation A = new ObjectCreation(1, 23, "Raju", 5);
+        System.out.println(A);
     }
 }
