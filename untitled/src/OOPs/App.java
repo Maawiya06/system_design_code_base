@@ -26,5 +26,9 @@ public class App {
 
         // get private attribute
         System.out.println(A.getGf());
+        // set new gf
+        A.setGf("Doby");
+
+        System.out.println(A.getGf());
     }
 }
