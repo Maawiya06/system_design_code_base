@@ -23,6 +23,12 @@ public class ObjectCreation {
         this.nos = nos;
         this.gf = gf;
     }
+
+    // accessing private attribute
+    public String getGf(){
+        return this.gf;
+    }
+
     // behaviour
     public void study() {
         System.out.println(name + " studying");

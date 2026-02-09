@@ -18,7 +18,13 @@ public class App {
         A.study();
          */
 
-        ObjectCreation A = new ObjectCreation(1, 23, "Raj", 5);
+        ObjectCreation A = new ObjectCreation(1, 23, "Raj", 5, "Tina");
         System.out.println(A.name);
+        System.out.println(A.id);
+        System.out.println(A.age);
+        System.out.println(A.nos);
+
+        // get private attribute
+        System.out.println(A.getGf());
     }
 }
