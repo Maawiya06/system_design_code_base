@@ -7,6 +7,7 @@ public class ObjectCreation {
     public int age;
     public String name;
     public int nos;
+    private String gf;
 
     // default constructor
     public ObjectCreation(){
@@ -14,12 +15,13 @@ public class ObjectCreation {
     }
 
     // parameterised constructor
-    public ObjectCreation(int id, int age, String name, int nos){
+    public ObjectCreation(int id, int age, String name, int nos, String gf){
         System.out.println("This is parameterised constructor");
         this.id = id;
         this.age = age;
         this.name = name;
         this.nos = nos;
+        this.gf = gf;
     }
     // behaviour
     public void study() {
@@ -33,4 +35,6 @@ public class ObjectCreation {
     public void bunk(){
         System.out.println(name + " Bunking");
     }
+
+    private void gfChatting(){System.out.println(name + " Chatting");}
 }
