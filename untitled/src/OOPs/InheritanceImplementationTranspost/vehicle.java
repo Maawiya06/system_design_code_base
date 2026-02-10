@@ -3,7 +3,9 @@ package OOPs.InheritanceImplementationTranspost;
 public class vehicle {
 
     public String name;
+
     public String model;
+
     public int noOfTyres;
 
     public vehicle(String name, String model, int noOfTyres){
