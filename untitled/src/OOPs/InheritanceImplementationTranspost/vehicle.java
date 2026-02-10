@@ -12,11 +12,12 @@ public class vehicle {
         this.noOfTyres = noOfTyres;
     }
 
+    public vehicle(){ }
     public void startEngine(){
-        System.out.println("Engine is Starting of : " + name + model);
+        System.out.printf("Engine is Starting of %s : %s\n ", name, model);
     }
 
     public void stopEngine(){
-        System.out.println("Engine is Stoping of : " + name + model);
+        System.out.printf("Engine is Stoping of %s : %s\n", name, model);
     }
 }
