@@ -12,6 +12,6 @@ public class Truck extends vehicle{
     }
 
     void GotAccident(){
-        System.out.println("It Accident on ruff road: " + name);
+        System.out.println("It Accident on Rough road: " + name);
     }
 }

@@ -5,7 +5,7 @@ public class Car extends vehicle{
     public int noOfDoors;
     public String transmissionType;
 
-    Car(int noOfDoors, String transmissinType, String name, String model, int noOfTyres){
+    Car(String name, String model, int noOfTyres, int noOfDoors, String transmissinType){
         super(name, model, noOfTyres);
         this.noOfDoors = noOfDoors;
         this.transmissionType = transmissinType;
