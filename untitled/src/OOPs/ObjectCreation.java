@@ -32,6 +32,8 @@ public class ObjectCreation {
     public void setGf(String name1){
         this.gf = name1;
     }
+
+    
     // behaviour
     public void study() {
         System.out.println(name + " studying");
