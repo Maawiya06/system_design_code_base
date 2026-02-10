@@ -1,16 +1,14 @@
 package OOPs.InheritanceImplementationTranspost;
 
-import java.sql.SQLOutput;
-
 public class Car extends vehicle{
 
     public int noOfDoors;
-    public String transmissinType;
+    public String transmissionType;
 
     Car(int noOfDoors, String transmissinType, String name, String model, int noOfTyres){
         super(name, model, noOfTyres);
         this.noOfDoors = noOfDoors;
-        this.transmissinType = transmissinType;
+        this.transmissionType = transmissinType;
     }
 
     void startAc(){
