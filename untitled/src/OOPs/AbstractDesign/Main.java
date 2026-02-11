@@ -19,10 +19,18 @@ class sparrow extends Bird {
         System.out.println("Sparrow eating");
     }
 }
+
 public class Main {
-   public static void main(String[] args) {
-        Bird b = new sparrow();
-        b.eat();
+
+    static void doBirdStuff(Bird b) {
         b.fly();
+        b.eat();
+    }
+   public static void main(String[] args) {
+//        Bird b = new sparrow();
+//        b.eat();
+//        b.fly();
+
+       doBirdStuff(new sparrow());
     }
 }
