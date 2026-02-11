@@ -1,21 +1,58 @@
 package OOPs.AbstractDesign;
 
-abstract class Bird {
+//abstract class Bird {
+//
+//    abstract void fly();
+//
+//    abstract void eat();
+//}
+//
+//class sparrow extends Bird {
+//
+//    @Override
+//    void fly() {
+//        System.out.println("Sparrow flying");
+//    }
+//
+//    @Override
+//    void eat() {
+//        System.out.println("Sparrow eating");
+//    }
+//}
+//
+//public class Main {
+//
+//    static void doBirdStuff(Bird b) {
+//        b.fly();
+//        b.eat();
+//    }
+//   public static void main(String[] args) {
+////        Bird b = new sparrow();
+////        b.eat();
+////        b.fly();
+//
+//       doBirdStuff(new sparrow());
+//    }
+//}
 
-    abstract void fly();
+// interface 2nd method
 
-    abstract void eat();
+interface Bird {
+
+    void fly();
+
+    void eat();
 }
 
-class sparrow extends Bird {
+class sparrow implements Bird {
 
     @Override
-    void fly() {
+    public void fly() {
         System.out.println("Sparrow flying");
     }
 
     @Override
-    void eat() {
+    public void eat() {
         System.out.println("Sparrow eating");
     }
 }
@@ -26,11 +63,11 @@ public class Main {
         b.fly();
         b.eat();
     }
-   public static void main(String[] args) {
+    public static void main(String[] args) {
 //        Bird b = new sparrow();
 //        b.eat();
 //        b.fly();
 
-       doBirdStuff(new sparrow());
+        doBirdStuff(new sparrow());
     }
 }
